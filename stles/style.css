@@ -1,0 +1,385 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    user-select: none;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.title1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.title2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.nav {
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    padding: 6px 0;
+}
+
+.header__nav {
+    max-width: 1190px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__img {
+    padding-right: 30px;
+}
+
+
+
+.header__icons {
+
+    max-width: 1190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link:hover {
+    color: rebeccapurple;
+}
+
+.header__link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    transition: 500ms;
+    padding: 0 30px;
+}
+
+
+.header__search-link {
+    padding: 0 20px;
+}
+
+.header__search:hover {
+    scale: 1.1;
+}
+.header__search {
+    transition: 500ms;
+}
+
+
+
+.header__banner {
+    background: url(../images/Header.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+}
+
+.header__icon {
+    border-radius: 10px;
+    padding: 13px 18px 13px 14px;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color:#040D1F;
+    transition: 500ms;
+}
+
+.header__icon:hover {
+    background: #F18128;
+    color: white;
+}
+
+.img::after {
+    color: aqua;
+}
+
+.main {
+    background: #151515;
+}
+
+.sectiona__grin {
+    transition: 450ms;
+}
+
+.sectiona__grin:hover {
+    scale: 1.1;
+}
+
+
+.section__grein-items {
+    max-width: 1250px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__grin-item {
+    max-width: 538px;
+    width: 100%;
+    min-height: 135px;
+    padding-right: 30px;
+}
+
+.section__grein-img {
+    max-width: 552px;
+}
+
+.section__black {
+    transition: 450ms;
+}
+
+.section__black:hover {
+    scale: 1.1;
+}
+
+.section__black-items {
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.black__item {
+    max-width: 457px;
+    width: 100%;
+    padding-right: 87px;
+}
+
+.black__item1 {
+    max-width: 540px;
+    width: 100%;
+    min-height: 107px;
+}
+
+.section__white {
+    transition: 450ms;
+}
+
+.section__white:hover {
+    scale: 1.1;
+}
+
+.section__white-items {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.white__item1 {
+    max-width: 333px;
+    width: 100%;
+    min-height: 120px;
+    text-align: right;
+    padding-right: 13px;
+}
+
+.span {
+    max-width: 61px;
+    width: 100%;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.white__item {
+    max-width: 268px;
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.white__item2 {
+    max-width: 333px;
+    width: 100%;
+    min-height: 144px;
+}
+
+.section__phones {
+    max-width: 1110px;
+    width: 100%;
+    padding-bottom: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.section__phone {
+    max-width: 255px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding: 15px 10px;
+}
+
+.phone__img {
+    padding-bottom: 10px;
+    transition: 500ms;
+}
+
+.phone__praice {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.phone__view {
+    background: #040D1F;
+    padding: 7px 57px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    transition: 500ms;
+}
+
+.phone__view:hover {
+    background: #F18128;
+    color: black;
+}
+
+.section__phone:hover>.phone__praice {
+    color: green;
+}
+
+.section__phone:hover>.phone__img {
+    scale: 1.1;
+}
+
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer__icons {
+    max-width: 1190px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+}
+
+.footer__img {
+    padding: 81px 0 81px 0;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+
+}
+
+.footer__link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    transition: 450ms;
+}
+
+.footer__link:hover {
+    color: #040D1F;
+}
+
+.footer__pay {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.footer__img-viza:hover {
+    scale: 1.1;
+}
+.footer__img-viza {
+    transition: 450ms;
+}
+
+.footer__img-mastercard {
+    transition: 450ms;
+}
+
+.footer__img-mastercard:hover {
+    scale: 1.1;
+}

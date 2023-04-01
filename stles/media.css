@@ -1,0 +1,140 @@
+@media(max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .section__grein-items {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .section__black-items {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .section__white-items {
+        flex-direction: column;
+        row-gap: 30px;
+
+    }
+
+    .section__phones {
+        max-width: 1110px;
+        width: 100%;
+        column-gap: 30px;
+    }
+
+    .footer .container {
+        max-width: 1600px;
+        width: 100%;
+    }
+
+}
+
+@media(max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .black__item {
+        padding: 0 30px;
+    }
+
+    .white__item1 {
+        text-align: center;
+    }
+
+    .white__item2 {
+        text-align: center;
+    }
+
+    .section__phone {
+        max-width: 255px;
+        width: 100%;
+    }
+
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+
+
+    .header__nav {
+        flex-wrap: wrap;
+        row-gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .nav__img {
+        padding: 0 10px;
+    }
+
+    .section__phones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+}
+
+@media(max-width:576px) {
+    .container {
+        max-width: auto;
+    }
+
+    .header__icons {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .header__title {
+        font-size: 88px;
+    }
+
+    .section__grin-item {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .section__grein-img {
+        max-width: 552px;
+        width: 100%;
+    }
+
+    .footer__icons {
+       flex-direction: column;
+       align-items: center;
+       padding-bottom: 30px;
+       row-gap: 30px;
+    }
+
+    .footer__img {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .header__nav {
+        justify-content: center;
+    }
+
+    .header__title {
+        font-size: 60px;
+    }
+
+    .header__list {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .header__link {
+        padding: 0 15px;
+    }
+
+}
